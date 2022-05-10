@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coffeeshop Finder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">LA Coffeeshop Finder</h1>
+        
+    
+        <div id="cafe-selector">  
+            <h3>Select a neighborhood:</h3>
+            <select class="neighborhoods" id="neighborhoods" name="neighborhoods" >
+                <option value="" disabled selected hidden></option>
+                
+                <option value="flexible">I'm open to anything!</option>
+                <option value="downtown">Downtown</option>
+                <option value="koreatown">Koreatown</option>
+                <option value="westla">West LA</option>
+                <!--
+                <option value="beverly-hills">Beverly Hills</option>
+                <option value="santa-monica">Santa Monica</option>
+                -->
+            </select>
+            <button type="submit" id="search-btn">Search <i class="fas fa-coffee"></i></button>
+        </div>
+
+        <div class="cafe-result">
+            <h4 id="cafeNameDisplay"></h4>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

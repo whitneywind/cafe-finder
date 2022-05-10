@@ -1,0 +1,38 @@
+body {
+    background-image: url("./IMG_4721.jpg");
+    font-family: 'Permanent Marker', cursive;
+    color:rgb(82, 59, 30);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overscroll-behavior: none;
+
+  
+}
+
+body:-webkit-scrollbar {
+    display: none;
+}
+
+.title {
+    border-bottom: 2px solid;
+}
+
+.container {
+    background: rgb(236, 233, 226);
+    text-align: center;
+    margin: auto;
+    padding: 10px 10px 30px 10px;
+    border-radius: 15px;
+    width: 50vw;
+    margin-top: 30vh;
+    opacity: .8;
+    /*make somewhat translucent*/
+}
+
+#cafeNameDisplay {
+    font-size: 1.5em;
+   
+}
+
